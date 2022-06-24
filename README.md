@@ -136,6 +136,7 @@ Codeigniter juga menyediakan mode debugging/development yang dapat menampilkan e
 ![image](https://user-images.githubusercontent.com/83681139/175552146-38f0c3dc-c2c8-4ed7-88ce-29919cb85acc.png)
 
 + Kemudian ubah file about.php (/app/view/about.php) seperti berikut.
+
 <?= $this->include('template/header'); ?>
 <h1><?= $title; ?></h1>
 <hr>
