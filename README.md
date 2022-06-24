@@ -31,7 +31,7 @@
 
 # 10. Membuat Controller Page, dengan membuat file baru bernama page.php seperti berikut :
 ![image](https://user-images.githubusercontent.com/83681139/175542321-a7bf3abe-e6c7-41c2-a309-7347440d9aa0.png)
-Hasilnya :
+#.Hasilnya :
 ![image](https://user-images.githubusercontent.com/83681139/175542427-b8933a66-e5d0-4c54-929b-a4a660eaf878.png)
 
 # 11. Mengaktifkan AutoRouting dengan men set nilai true/false, jika true maka fungsi akan aktif
@@ -41,7 +41,7 @@ Hasilnya :
 
 # 12. Membuat View, dengan membuat file baru bernama about.php dan masukan kode berikut :
 ![image](https://user-images.githubusercontent.com/83681139/175546012-0aeeaa25-e733-43f8-8b56-86e2756c8d6f.png)
-# Hasilnya:
+#.Hasilnya:
 ![image](https://user-images.githubusercontent.com/83681139/175546082-9b581240-1454-4288-82d7-9946d6725617.png)
 
 
