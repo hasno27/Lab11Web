@@ -64,6 +64,7 @@ Mengaktifkan beberapa ekstensi php, diantaranya:
 + php-xml ekstension untuk bekerja dengan XML;
 + php-intl ekstensi untuk membuat aplikasi multibahasa;
 + libcurl (opsional), jika ingin pakai Curl
+
 ![image](https://user-images.githubusercontent.com/83681139/175549192-24369510-e7c8-46cf-8179-dc4128e439aa.png)
 
 Hapus tanda ; (titik koma) pada bagian extension yang akan diaktifkan.
