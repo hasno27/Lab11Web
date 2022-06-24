@@ -37,12 +37,14 @@
 
 ## 11. Mengaktifkan AutoRouting dengan men set nilai true/false, jika true maka fungsi akan aktif
 ![image](https://user-images.githubusercontent.com/83681139/175542822-45791b26-b9b9-4d1b-a953-fbe701cfddc0.png)
-## Akses http://localhost:8080/page/tos karena halaman in belum masuk pada routing, hasilnya :
++ Akses http://localhost:8080/page/tos karena halaman in belum masuk pada routing, hasilnya :
+
 ![image](https://user-images.githubusercontent.com/83681139/175543032-5e860fed-e9f7-4a92-ae71-ca78cac8cf77.png)
 
 ## 12. Membuat View, dengan membuat file baru bernama about.php dan masukan kode berikut :
 ![image](https://user-images.githubusercontent.com/83681139/175546012-0aeeaa25-e733-43f8-8b56-86e2756c8d6f.png)
-## Hasilnya:
++ Hasilnya:
+
 ![image](https://user-images.githubusercontent.com/83681139/175546082-9b581240-1454-4288-82d7-9946d6725617.png)
 
 ## 13. Membuat Layout Web dengan CSS (bisa menggunakan css praktikum sebelumnya Lab4Web) :
@@ -80,6 +82,17 @@ Hapus tanda ; (titik koma) pada bagian extension yang akan diaktifkan.
 Codeigniter menyediakan CLI, untuk mengaksesnya buka terminal lalu arahkan ke direktori project yang akan dibuat. Kemudian jalankan perintah php spark untuk memanggil CLI codeigniter.
 ![image](https://user-images.githubusercontent.com/83681139/175549600-8d634a5c-dcc3-4a4b-9d45-f9dfd4746179.png)
 
+Codeigniter juga menyediakan mode debugging/development yang dapat menampilkan error/kesalahan dalam kode program. Cara mengaktifkannya dengan mengubah nama file env menjadi .env kemudian buka filenya dan ubah nilai CI_ENVIRONMENT menjadi development.
+![image](https://user-images.githubusercontent.com/83681139/175550565-80bb2d78-2537-4c3a-9c6c-02bfb8b323bb.png)
+
+## Langkah 1 - Membuat Route
++ Router terletak pada file app/config/Routes.php
+
++ Untuk mengetahui route yg ada atau telah berjalan dapat menggunakan perintah php spark routes
+
+![image](https://user-images.githubusercontent.com/83681139/175550955-9d8e253a-4ea4-4180-aa46-25309eb0d76a.png)
+
++ Selanjutnya mencoba akses route yang telah dibuat dengan mengakses http://localhost:8080/contact
 
 
 
