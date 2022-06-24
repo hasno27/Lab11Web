@@ -55,6 +55,15 @@
 ![image](https://user-images.githubusercontent.com/83681139/175547560-b6390b1f-69d6-495e-8169-d763d005da00.png)
 
 # Praktikum 11 Pertemuan 13 - Pemrograman Web (PHP Framework)
+## Laporan Praktikum
+## Persiapan
+Mengaktifkan beberapa ekstensi php, diantaranya:
+
+php-json ekstension untuk bekerja dengan JSON;
+php-mysqlnd native driver untuk MySQL;
+php-xml ekstension untuk bekerja dengan XML;
+php-intl ekstensi untuk membuat aplikasi multibahasa;
+libcurl (opsional), jika ingin pakai Curl
 
 
 
