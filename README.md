@@ -6,8 +6,7 @@
 # 2. Instal Codeigniter 4 dan Buka http://localhost/lab11_php_ci/ci4/public/ , hasilnya :
 ![image](https://user-images.githubusercontent.com/83681139/175536660-7a76fd5b-8ba9-4d87-a2c0-67be068a43e5.png)
 
-# 3. Buka cmd pada XAMPP Shell lalu buka php spark, untuk menjalankan server ketik "php spark serve" :
-Hasil error/kesalahan : 
+# 3. Buka cmd pada XAMPP Shell lalu buka php spark, untuk menjalankan server ketik "php spark serve" :Hasil error/kesalahan : 
     ![image](https://user-images.githubusercontent.com/83681139/175537332-98c83600-b88f-44da-9e0f-13a0ff08c50d.png)
 
 # 4. Mengaktifkan mode Debugging dengan mengubah file .env menjadi = development, seperti berikut :
