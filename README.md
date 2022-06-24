@@ -59,11 +59,11 @@
 ## Persiapan
 Mengaktifkan beberapa ekstensi php, diantaranya:
 
-php-json ekstension untuk bekerja dengan JSON;
-php-mysqlnd native driver untuk MySQL;
-php-xml ekstension untuk bekerja dengan XML;
-php-intl ekstensi untuk membuat aplikasi multibahasa;
-libcurl (opsional), jika ingin pakai Curl
++ php-json ekstension untuk bekerja dengan JSON;
++ php-mysqlnd native driver untuk MySQL;
++ php-xml ekstension untuk bekerja dengan XML;
++ php-intl ekstensi untuk membuat aplikasi multibahasa;
++ libcurl (opsional), jika ingin pakai Curl
 
 
 
