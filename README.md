@@ -44,6 +44,18 @@
 # Hasilnya:
 ![image](https://user-images.githubusercontent.com/83681139/175546082-9b581240-1454-4288-82d7-9946d6725617.png)
 
+# 13. Membuat Layout Web dengan CSS (bisa menggunakan css praktikum sebelumnya Lab4Web) :
+![image](https://user-images.githubusercontent.com/83681139/175547313-771c11b6-c573-48bb-949e-6a18539a13db.png)
+
+# 14. Buatlah folder baru dengan nama "template" pada direktori Views, kemudian buat file header dan footer sebagai berikut :
+![image](https://user-images.githubusercontent.com/83681139/175547395-893fde52-fdf4-4180-b539-b518d87c4fa9.png)
+![image](https://user-images.githubusercontent.com/83681139/175547453-5b8d68e6-dd5b-49f0-a3f9-23e03cbdd7ae.png)
+
+# 15. Kemudian ubah file app/view/about.php seperti berikut :
+![image](https://user-images.githubusercontent.com/83681139/175547560-b6390b1f-69d6-495e-8169-d763d005da00.png)
+
+## Praktikum 11 Pertemuan 13 - Pemrograman Web (PHP Framework)
+
 
 
 
