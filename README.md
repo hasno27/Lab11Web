@@ -9,7 +9,7 @@
 ![image](https://user-images.githubusercontent.com/83681139/175540942-6c0f05e4-7db3-42c1-8c92-293a2a32c9c7.png)
 
 ## 3. Buka cmd pada XAMPP Shell lalu buka php spark, untuk menjalankan server ketik "php spark serve" :
-## Hasil error/kesalahan :
++ Hasil error/kesalahan :
 ![image](https://user-images.githubusercontent.com/83681139/175541104-6bd5ab9b-b4fb-4124-9ab6-351168debe53.png)
 
 ## 4. Mengaktifkan mode Debugging dengan mengubah file .env menjadi = development, seperti berikut :
