@@ -12,7 +12,7 @@
 Hasil error/kesalahan :
 ![image](https://user-images.githubusercontent.com/83681139/175541104-6bd5ab9b-b4fb-4124-9ab6-351168debe53.png)
 
-# Mengaktifkan mode Debugging dengan mengubah file .env menjadi = development, seperti berikut :
+# 4. Mengaktifkan mode Debugging dengan mengubah file .env menjadi = development, seperti berikut :
 ![image](https://user-images.githubusercontent.com/83681139/175541717-d624c8ae-f973-43a8-a419-3d1178faaf10.png)
 
 # 5. Untuk mencoba Error hilangkan tanda ; (titik koma) pada Home.php, seperti berikut :
@@ -30,8 +30,8 @@ Hasil error/kesalahan :
 ![image](https://user-images.githubusercontent.com/83681139/175542273-9dc4c127-f4e5-4e18-b08d-bab93cfa8244.png)
 
 # 10. Membuat Controller Page, dengan membuat file baru bernama page.php seperti berikut :
-![image](https://user-images.githubusercontent.com/83681139/175542321-a7bf3abe-e6c7-41c2-a309-7347440d9aa0.png)
-Hasilnya :![image](https://user-images.githubusercontent.com/83681139/175542427-b8933a66-e5d0-4c54-929b-a4a660eaf878.png)
+![image](https://user-images.githubusercontent.com/83681139/175542321-a7bf3abe-e6c7-41c2-a309-7347440d9aa0.png)Hasilnya :
+![image](https://user-images.githubusercontent.com/83681139/175542427-b8933a66-e5d0-4c54-929b-a4a660eaf878.png)
 
 
 
