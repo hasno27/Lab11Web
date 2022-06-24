@@ -9,7 +9,7 @@
 ![image](https://user-images.githubusercontent.com/83681139/175540942-6c0f05e4-7db3-42c1-8c92-293a2a32c9c7.png)
 
 # 3. Buka cmd pada XAMPP Shell lalu buka php spark, untuk menjalankan server ketik "php spark serve" :
-+ Hasil error/kesalahan :
+# Hasil error/kesalahan :
 ![image](https://user-images.githubusercontent.com/83681139/175541104-6bd5ab9b-b4fb-4124-9ab6-351168debe53.png)
 
 # 4. Mengaktifkan mode Debugging dengan mengubah file .env menjadi = development, seperti berikut :
@@ -31,17 +31,17 @@
 
 # 10. Membuat Controller Page, dengan membuat file baru bernama page.php seperti berikut :
 ![image](https://user-images.githubusercontent.com/83681139/175542321-a7bf3abe-e6c7-41c2-a309-7347440d9aa0.png)
-+ Hasilnya :
+# Hasilnya :
 ![image](https://user-images.githubusercontent.com/83681139/175542427-b8933a66-e5d0-4c54-929b-a4a660eaf878.png)
 
 # 11. Mengaktifkan AutoRouting dengan men set nilai true/false, jika true maka fungsi akan aktif
 ![image](https://user-images.githubusercontent.com/83681139/175542822-45791b26-b9b9-4d1b-a953-fbe701cfddc0.png)
-+ Akses http://localhost:8080/page/tos karena halaman in belum masuk pada routing, hasilnya :
+# Akses http://localhost:8080/page/tos karena halaman in belum masuk pada routing, hasilnya :
 ![image](https://user-images.githubusercontent.com/83681139/175543032-5e860fed-e9f7-4a92-ae71-ca78cac8cf77.png)
 
 # 12. Membuat View, dengan membuat file baru bernama about.php dan masukan kode berikut :
 ![image](https://user-images.githubusercontent.com/83681139/175546012-0aeeaa25-e733-43f8-8b56-86e2756c8d6f.png)
-+ Hasilnya:
+# Hasilnya:
 ![image](https://user-images.githubusercontent.com/83681139/175546082-9b581240-1454-4288-82d7-9946d6725617.png)
 
 
