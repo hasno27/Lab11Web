@@ -36,8 +36,15 @@ Hasilnya :
 
 # 11. Mengaktifkan AutoRouting dengan men set nilai true/false, jika true maka fungsi akan aktif
 ![image](https://user-images.githubusercontent.com/83681139/175542822-45791b26-b9b9-4d1b-a953-fbe701cfddc0.png)
-Akses http://localhost:8080/page/tos karena halaman in belum masuk pada routing, hasilnya :
++ .Akses http://localhost:8080/page/tos karena halaman in belum masuk pada routing, hasilnya :
 ![image](https://user-images.githubusercontent.com/83681139/175543032-5e860fed-e9f7-4a92-ae71-ca78cac8cf77.png)
+
+# 12. Membuat View, dengan membuat file baru bernama about.php dan masukan kode berikut :
+![image](https://user-images.githubusercontent.com/83681139/175546012-0aeeaa25-e733-43f8-8b56-86e2756c8d6f.png)
+# Hasilnya:
+![image](https://user-images.githubusercontent.com/83681139/175546082-9b581240-1454-4288-82d7-9946d6725617.png)
+
+
 
 
 
