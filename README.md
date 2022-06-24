@@ -9,7 +9,7 @@
 ![image](https://user-images.githubusercontent.com/83681139/175540942-6c0f05e4-7db3-42c1-8c92-293a2a32c9c7.png)
 
 ## 3. Buka cmd pada XAMPP Shell lalu buka php spark, untuk menjalankan server ketik "php spark serve" :
-##+ Hasil error/kesalahan :
+## Hasil error/kesalahan :
 ![image](https://user-images.githubusercontent.com/83681139/175541104-6bd5ab9b-b4fb-4124-9ab6-351168debe53.png)
 
 ## 4. Mengaktifkan mode Debugging dengan mengubah file .env menjadi = development, seperti berikut :
@@ -64,7 +64,19 @@ Mengaktifkan beberapa ekstensi php, diantaranya:
 + php-xml ekstension untuk bekerja dengan XML;
 + php-intl ekstensi untuk membuat aplikasi multibahasa;
 + libcurl (opsional), jika ingin pakai Curl
+![image](https://user-images.githubusercontent.com/83681139/175549192-24369510-e7c8-46cf-8179-dc4128e439aa.png)
 
+Hapus tanda ; (titik koma) pada bagian extension yang akan diaktifkan.
+![image](https://user-images.githubusercontent.com/83681139/175549293-c9390995-78aa-4a80-b1fc-9ab98b303dd3.png)
+
+## Instalasi CodeIgniter 4
++ Codeigniter dapat didownload dari website https://codeigniter.com/download
++ Extrak file zip Codeigniter ke direktori htdocs/lab11_php_ci.
++ Ubah nama direktory framework-4.x.xx menjadi ci4.
++ Buka browser dengan alamat http://localhost/lab11_php_ci/ci4/public/
+
+Codeigniter menyediakan CLI, untuk mengaksesnya buka terminal lalu arahkan ke direktori project yang akan dibuat. Kemudian jalankan perintah php spark untuk memanggil CLI codeigniter.
+![image](https://user-images.githubusercontent.com/83681139/175549600-8d634a5c-dcc3-4a4b-9d45-f9dfd4746179.png)
 
 
 
