@@ -30,8 +30,12 @@ Hasil error/kesalahan :
 ![image](https://user-images.githubusercontent.com/83681139/175542273-9dc4c127-f4e5-4e18-b08d-bab93cfa8244.png)
 
 # 10. Membuat Controller Page, dengan membuat file baru bernama page.php seperti berikut :
-![image](https://user-images.githubusercontent.com/83681139/175542321-a7bf3abe-e6c7-41c2-a309-7347440d9aa0.png)Hasilnya :
+![image](https://user-images.githubusercontent.com/83681139/175542321-a7bf3abe-e6c7-41c2-a309-7347440d9aa0.png)
+Hasilnya :
 ![image](https://user-images.githubusercontent.com/83681139/175542427-b8933a66-e5d0-4c54-929b-a4a660eaf878.png)
+
+# 11. Mengaktifkan AutoRouting dengan men set nilai true/false, jika true maka fungsi akan aktif
+![image](https://user-images.githubusercontent.com/83681139/175542822-45791b26-b9b9-4d1b-a953-fbe701cfddc0.png)
 
 
 
