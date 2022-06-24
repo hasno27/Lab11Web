@@ -34,7 +34,7 @@ Hasilnya :
 
 # 11. Mengaktifkan AutoRouting dengan men set nilai true/false, jika true maka fungsi akan aktif
 ![image](https://user-images.githubusercontent.com/83681139/175538555-3fc3c0ce-b2b2-46ba-a782-0d1a32a745dc.png)
-1.Akses http://localhost:8080/page/tos karena halaman in belum masuk pada routing, hasilnya :
+Akses http://localhost:8080/page/tos karena halaman in belum masuk pada routing, hasilnya :
 ![image](https://user-images.githubusercontent.com/83681139/175538642-a5b59cb6-03b5-4a6f-af99-14e181f21066.png)
 
 
