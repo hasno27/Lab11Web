@@ -87,6 +87,7 @@ Codeigniter menyediakan CLI, untuk mengaksesnya buka terminal lalu arahkan ke di
 ![image](https://user-images.githubusercontent.com/83681139/175549600-8d634a5c-dcc3-4a4b-9d45-f9dfd4746179.png)
 
 Codeigniter juga menyediakan mode debugging/development yang dapat menampilkan error/kesalahan dalam kode program. Cara mengaktifkannya dengan mengubah nama file env menjadi .env kemudian buka filenya dan ubah nilai CI_ENVIRONMENT menjadi development.
+
 ![image](https://user-images.githubusercontent.com/83681139/175550565-80bb2d78-2537-4c3a-9c6c-02bfb8b323bb.png)
 
 ## Langkah 1 - Membuat Route
