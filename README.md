@@ -32,7 +32,8 @@
 
 ## 10. Membuat Controller Page, dengan membuat file baru bernama page.php seperti berikut :
 ![image](https://user-images.githubusercontent.com/83681139/175542321-a7bf3abe-e6c7-41c2-a309-7347440d9aa0.png)
-## Hasilnya :
++ Hasilnya :
+
 ![image](https://user-images.githubusercontent.com/83681139/175542427-b8933a66-e5d0-4c54-929b-a4a660eaf878.png)
 
 ## 11. Mengaktifkan AutoRouting dengan men set nilai true/false, jika true maka fungsi akan aktif
@@ -57,9 +58,12 @@
 ## 15. Kemudian ubah file app/view/about.php seperti berikut :
 ![image](https://user-images.githubusercontent.com/83681139/175547560-b6390b1f-69d6-495e-8169-d763d005da00.png)
 
-# Praktikum 11 Pertemuan 13 - Pemrograman Web (PHP Framework)
+# Praktikum 11 Pertemuan 14 - Pemrograman Web (PHP Framework)
+
 ## Laporan Praktikum
+
 ## Persiapan
+
 Mengaktifkan beberapa ekstensi php, diantaranya:
 
 + php-json ekstension untuk bekerja dengan JSON;
@@ -94,7 +98,142 @@ Codeigniter juga menyediakan mode debugging/development yang dapat menampilkan e
 
 + Selanjutnya mencoba akses route yang telah dibuat dengan mengakses http://localhost:8080/contact
 
+## Langkah 2 - Membuat Controller
 
++ Membuat file page.php di dalam direktori Controller (/app/Controllers)
 
+![image](https://user-images.githubusercontent.com/83681139/175551502-ff3c6000-6e23-4cd6-804c-c892b4b3ffb5.png)
 
++ Kemudian refresh browser maka halaman sudah dapat diakses dan menampilkan hasilnya.
 
++ Menambahkan method baru pada controller page.
+
++ Method ini dapat diakses dengan menggunakan alamat: http://localhost:8080/page/tos
+
+![image](https://user-images.githubusercontent.com/83681139/175551633-5320b0a6-84fd-440e-9e9d-343369288742.png)
+
+## Langkah 3 - Membuat View
+
++ Membuat file about.php di dalam direktori View (/app/view/about.php)
+
+![image](https://user-images.githubusercontent.com/83681139/175551774-b89576bf-c981-4329-b18d-e25821e55007.png)
+
++ Mengubah method about dalam controller page.
+
+![image](https://user-images.githubusercontent.com/83681139/175551831-a43a69a8-ef3e-4ec6-8861-620a992723f1.png)
+
+## Langkah 4 - Membuat Layout Web dengan CSS
+
++ Buat file css pada direktori public dengan nama style.css (copy file dari praktikum lab4_layout).
+
+![image](https://user-images.githubusercontent.com/83681139/175552033-bc47bfd6-537c-41fd-bba0-b62b83996a0b.png)
+
++ Kemudian buat folder template pada direktori view, lalu buat file header.php dan footer.php.
+
+![image](https://user-images.githubusercontent.com/83681139/175552110-3203c9cf-99e8-498d-bca5-70341bdf3b86.png)
+
+![image](https://user-images.githubusercontent.com/83681139/175552146-38f0c3dc-c2c8-4ed7-88ce-29919cb85acc.png)
+
++ Kemudian ubah file about.php (/app/view/about.php) seperti berikut.
+
+<?= $this->include('template/header'); ?>
+<h1><?= $title; ?></h1>
+<hr>
+<p><?= $content; ?></p>
+<?= $this->include('template/footer'); ?>
+
+# Laporan Praktikum
+
+## Langkah 1 - Konfigurasi Database
+
+Membuat konfigurasi hubungan ke database server dengan menggunakan file .env.
+
+![image](https://user-images.githubusercontent.com/83681139/175552540-aa03bdd0-9a34-43cb-8f2b-167dfb713dad.png)
+
+## Langkah 2 - Membuat Model
+
+Buat file baru pada direktori /app/Models dengan nama ArtikelModel.php
+
+![image](https://user-images.githubusercontent.com/83681139/175552668-bebfd71c-db0b-4bbe-b9a6-e2ea3b646133.png)
+
+## Langkah 3 - Membuat Controller
+
+Buat Controller baru dengan nama Artikel.php pada direktori /app/Controllers.
+
+![image](https://user-images.githubusercontent.com/83681139/175552809-072e3349-03a0-4b5c-b86b-5fb3ac06575f.png)
+
+## Langkah 4 - Membuat View
+
+Buat direktori baru dengan nama artikel pada direktori /app/Views, kemudian buat file baru dengan nama index.php.
+
+![image](https://user-images.githubusercontent.com/83681139/175552941-ff35563b-bc83-44a8-bf32-5007ff9f2cf4.png)
+
+Lalu buka alamat http://localhost:8080/artikel untuk melihat hasilnya.
+
+## Langkah 5 - Membuat Tampilan Detail Artikel
+
+Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan sebuah fungsi baru pada Controller Artikel (/app/Controllers/Artikel.php) dengan nama view().
+
+![image](https://user-images.githubusercontent.com/83681139/175553102-e7af8041-e671-4501-955c-46ad774c3567.png)
+
+## Langkah 6 - Membuat View Detail
+
+Buat file baru dalam folder artikel (/app/Views/artikel/) dengan nama detail.php untuk menampilkan halaman detail.
+
+![image](https://user-images.githubusercontent.com/83681139/175553188-49c68861-acf3-485b-b931-afec90800f0d.png)
+
+## Langkah 7 - Membuat Route
+
+Buka file Routes.php dalam folder (/app/Config/) dan tambahkan routing untuk ke halaman detail artikel.
+$routes->get('/artikel/(:any)', 'Artikel::view/$1');
+
+![image](https://user-images.githubusercontent.com/83681139/175553325-d46c952c-8581-4221-b692-afe3e8e7bece.png)
+
+## Langkah 8 - Membuat Menu Admin
+
+Menu admin adalah untuk proses CRUD data artikel.
+Buat method atau fungsi baru pada Controller Artikel dengan nama admin_index().
+
+![image](https://user-images.githubusercontent.com/83681139/175553471-fcbd76b9-aca9-4a57-9453-ed223b231497.png)
+
+Kemudian buat file admin_index.php dalam folder (/app/Views/artikel/) untuk tampilan halaman admin.
+
+![image](https://user-images.githubusercontent.com/83681139/175553561-5f527695-bb5d-49a0-adb3-bc84959f4cfc.png)
+
+Kemudian tambahkan routing untuk menu admin sebagai berikut:
+
+![image](https://user-images.githubusercontent.com/83681139/175553622-2e3b9988-3f8f-46e9-bbe2-46a2713597f8.png)
+
+## Langkah 9 - Menambah Data Artikel
+
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama add().
+
+![image](https://user-images.githubusercontent.com/83681139/175553755-5dc6e08e-cc4c-4177-859a-b3328bdf8c24.png)
+
+Kemudian buat view untuk form tambah dengan nama form_add.php dalam folder (/app/Views/artikel/).
+
+![image](https://user-images.githubusercontent.com/83681139/175553937-4c1f61d1-c641-4af6-ae4c-b116f65a658b.png)
+
+## Langkah 10 - Mengubah Data
+
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama edit().
+
+![image](https://user-images.githubusercontent.com/83681139/175554094-361e614f-b7d4-4a38-baa9-81950dab5478.png)
+
+Kemudian buat view untuk form tambah dengan nama form_edit.php dalam folder (/app/Views/artikel/).
+
+![image](https://user-images.githubusercontent.com/83681139/175554172-3f66f015-aaa2-4efe-aaea-068813ec6501.png)
+
+## Langkah 11 - Menghapus Data
+
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
+
+![image](https://user-images.githubusercontent.com/83681139/175554260-96681462-9ddd-4aca-a047-1dfb6ef0cd2b.png)
+
+# Pertanyaan dan Tugas
+
+Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
+
+# Jawab/Hasil
+
+Saya telah menyelesaikan program diatas agar dapat berjalan dengan semestinya. Seperti membuat file admin_header.php dan admin_footer.php serta CSSnya.
