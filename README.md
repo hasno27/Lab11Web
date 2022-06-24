@@ -143,7 +143,6 @@ Codeigniter juga menyediakan mode debugging/development yang dapat menampilkan e
 <p><?= $content; ?></p>
 <?= $this->include('template/footer'); ?>
 
-
 # Laporan Praktikum
 
 ## Langkah 1 - Konfigurasi Database
