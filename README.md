@@ -54,7 +54,7 @@
 # 15. Kemudian ubah file app/view/about.php seperti berikut :
 ![image](https://user-images.githubusercontent.com/83681139/175547560-b6390b1f-69d6-495e-8169-d763d005da00.png)
 
-## Praktikum 11 Pertemuan 13 - Pemrograman Web (PHP Framework)
+### Praktikum 11 Pertemuan 13 - Pemrograman Web (PHP Framework)
 
 
 
